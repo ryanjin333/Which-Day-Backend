@@ -10,5 +10,12 @@
         "firebase-debug.*.log"
       ]
     }
-  ]
+  ],
+  "hosting": {
+    "rewrites": [ {
+      "source": "/isFirstDay",
+      "function": "app",
+      "region": "us-central1"
+    } ]
+  }
 }
